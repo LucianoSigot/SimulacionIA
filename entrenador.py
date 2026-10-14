@@ -33,7 +33,7 @@ def entrenar_modelo_desde_binario(archivo_npz: str, nombre_modelo_salida: str):
     
     predicciones = clf.predict(X_test)
     precision = accuracy_score(y_test, predicciones)
-    print(f"🎯 Precisión en validación: {precision:.4f}")
+    print(f" Precisión en validación: {precision:.4f}")
     
     archivo_final = f"{nombre_modelo_salida}.joblib"
     joblib.dump(clf, archivo_final)
