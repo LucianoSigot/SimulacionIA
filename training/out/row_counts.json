@@ -1,0 +1,11 @@
+{
+  "csv": "D:\\Facu\\IA Proyecto casi completo\\ajedrez-modelos-simulacion\\ai-service\\data\\datasetchess.csv",
+  "size": 4546574029,
+  "mtime": 1792455517,
+  "counts": {
+    "facil": 9167165,
+    "medio": 26864187,
+    "dificil": 29335277
+  },
+  "total": 65366629
+}

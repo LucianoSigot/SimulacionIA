@@ -1,0 +1,29 @@
+{
+  "csv": "D:\\Facu\\IA Proyecto casi completo\\ajedrez-modelos-simulacion\\ai-service\\data\\datasetchess.csv",
+  "max_rows_per_level": 500000,
+  "counts": {
+    "facil": 9167165,
+    "medio": 26864187,
+    "dificil": 29335277
+  },
+  "report": {
+    "status": "trained",
+    "samples": 1500000,
+    "val_samples": 150000,
+    "epochs_run": 8,
+    "params": 2768384,
+    "val_loss": 2.7631,
+    "top1": 0.2816,
+    "top3": 0.5071,
+    "seconds": 1552.2,
+    "invalid_rows": 0,
+    "mode": "from-scratch",
+    "per_level": {
+      "facil": 500000,
+      "medio": 500000,
+      "dificil": 500000
+    },
+    "total_seconds": 1665.4,
+    "file": "models\\policy_net.npz"
+  }
+}
